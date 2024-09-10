@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# React Project Plan Step by Step
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Project Requirements
 
-## Available Scripts
+- Build the restaurant recommendation application using React
+- Utilize HTML, CSS, and Javascript as part of the tech stack
+- Version control your application with Git and host the repository on
+  GitHub
+- Write a README (using Markdown) that documents your project,
+  including:
+  - The purpose of your project
+  - Technologies used
+  - Features
+  - Future work
 
-In the project directory, you can run:
+**Features**
 
-### `npm start`
+- The website allows users to scroll up and down to navigate through its content.
+- Users can simulate a search by typing in the search bar
+- A list of mock restaurant data is presented to the user.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Prerequisites**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- HTML
+- CSS
+- Javascript
+- React
+- Git and GitHub
+- HTTP Requests and Responses
+- Authentication
 
-### `npm test`
+## Part 1 : Creating Project & Components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Checklist
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [x] **TASK 1** : Set Up Your Local Environment - On your computer, create a React app named `ravenous` - use the `create-react-app` package - runs the app in the development mode `npm start`
+- [x] **TASK 2** : Set Up Version Control - Set up the folder you created previously to be a Git repository `git init`, `git add .` `git -m commit "Initial commit"` - need to set up a remote origin and push the initial files to a repository on GitHub. At Source Control menu `Push Branch`, name on it as repository name.
+- [x] **TASK 3** : Build the Business Component - The component will represent how a business (a restaurant) in Ravenous will be formatted and styled. Each `Business` component should display an `image`, `name`, `address`, `city`, `state`, `zipcode`, `category`, `rating`, and `review count`.
+- [ ] **TASK 4** : Add a Sample Business - For the Business component, create a hardcoded business that can be used to generate a list of fake businesses and simulate the website’s functionality.
