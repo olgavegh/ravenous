@@ -47,7 +47,9 @@
 - Eventually, the hardcoded business will be replaced with dynamic data retrieved from the Yelp API.
 - [x] **TASK 5** : Build the Business List Component
 - create a `BusinessList` component that displays a collection of businesses. The `BusinessList` component should utilize the `Business` component multiple times to generate the list
-- [ ] **TASK 6** : Build the Search Bar Component
+- [x] **TASK 6** : Build the Search Bar Component
 - Create a `SearchBar` component that users can use to search for businesses on the Yelp platform.
 - the search bar should contain two inputs, one for the user’s search terms and the selected location. Don’t forget a search button as well.
 - concentrate on building the buttons and the structure needed to communicate with the Yelp API
+- [ ] **TASK 7** : Style Your Components
+- make your components visually appealing and consistent by styling them. Create styles for the `Business`, `BusinessList`, and `SearchBar` components using CSS modules.
