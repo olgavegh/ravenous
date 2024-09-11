@@ -29,7 +29,7 @@ const Buisness = () => {
         </div>
         <div className="BuisnessReviews">
           <p>{buisness.category.toUpperCase()}</p>
-          <p>{`{buisness.rating} stars`}</p>
+          <p>{`${buisness.rating} stars`}</p>
           <p>{`${buisness.reviewCount} reviews`}</p>
         </div>
       </div>

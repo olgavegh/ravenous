@@ -45,5 +45,9 @@
 - [x] **TASK 4** : Add a Sample Business
 - for the Business component, create a hardcoded business that can be used to generate a list of fake businesses and simulate the website’s functionality.
 - Eventually, the hardcoded business will be replaced with dynamic data retrieved from the Yelp API.
-- [ ] **TASK 5** : Build the Business List Component
+- [x] **TASK 5** : Build the Business List Component
 - create a `BusinessList` component that displays a collection of businesses. The `BusinessList` component should utilize the `Business` component multiple times to generate the list
+- [ ] **TASK 6** : Build the Search Bar Component
+- Create a `SearchBar` component that users can use to search for businesses on the Yelp platform.
+- the search bar should contain two inputs, one for the user’s search terms and the selected location. Don’t forget a search button as well.
+- concentrate on building the buttons and the structure needed to communicate with the Yelp API
