@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./SearchBar.css";
+import style from "./SearchBar.module.css";
 
 const sortByOptions = {
   "Best Match": "best_match",
@@ -20,13 +20,7 @@ const SearchBar = () => {
         <ul>{renderSortByOptions()}</ul>
       </div>
       <div className={style.SearchBarFields}>
-        <label for="searchItem" className="hidden">
-          Search Terms
-        </label>
         <input type="text" name="searchItem" placeholder="Search Buisnesses" />
-        <label for="searchPlace" className="hidden">
-          Selected Location
-        </label>
         <input type="text" name="searchPlace" placeholder="Where" />
       </div>
       <button className={style.SearchBarSubmit} type="submit">

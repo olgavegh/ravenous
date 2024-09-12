@@ -1,11 +1,11 @@
 import React from "react";
-import "./BuisnessList.css";
+import style from "./BuisnessList.module.css";
 
 import Buisness from "../Buisness/Buisness";
 
 const BuisnessList = () => {
   return (
-    <div className="BuisnessList">
+    <div className={style.BuisnessList}>
       <Buisness />
       <Buisness />
       <Buisness />

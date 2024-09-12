@@ -1,5 +1,5 @@
 import React from "react";
-import "./Buisness.css";
+import style from "./Buisness.module.css";
 
 const buisness = {
   imageSrc:
@@ -16,18 +16,18 @@ const buisness = {
 
 const Buisness = () => {
   return (
-    <div className="Buisness">
-      <div className="imageContainer">
+    <div className={style.Buisness}>
+      <div className={style.imageContainer}>
         <img src={buisness.imageSrc} alt="" />
       </div>
       <h2>{buisness.name}</h2>
-      <div className="BuisnessInformation">
-        <div className="BuisnessAddress">
+      <div className={style.BusinessInformation}>
+        <div className={style.BusinessAddress}>
           <p>{buisness.address}</p>
           <p>{buisness.city}</p>
           <p>{`${buisness.state} ${buisness.zipCode}`}</p>
         </div>
-        <div className="BuisnessReviews">
+        <div className={style.BusinessReviews}>
           <p>{buisness.category.toUpperCase()}</p>
           <p>{`${buisness.rating} stars`}</p>
           <p>{`${buisness.reviewCount} reviews`}</p>

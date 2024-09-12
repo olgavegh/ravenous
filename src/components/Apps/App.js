@@ -7,7 +7,6 @@ import SearchBar from "../SearchBar/SearchBar";
 const App = () => {
   return (
     <div>
-      <h1>ravenous</h1>
       <SearchBar />
       <BuisnessList />
     </div>

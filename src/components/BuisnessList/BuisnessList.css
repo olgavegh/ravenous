@@ -1,7 +1,0 @@
-.BusinessList {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 15rem;
-  margin: 4.4rem 10%;
-}
